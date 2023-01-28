@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(245, 243, 227);
+    margin-left: 30px;
+}
+
+h1 {
+    color: rgba(0, 0, 0, 0.766);
+    font-size: 45px;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+}
+
+h2 {
+    color: rgba(239, 87, 87, 0.766);
+    font-size: 23px;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-size: 23px;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 700;
+}
+
+img {
+    width: 750px;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 700;
+}
+
+ol {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 700;
+}
+
+a
+{
+    color: rgba(239, 87, 87, 0.766);
+    font-size: 20px;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+
+}
+a:hover
+{
+    color: red;
+    font-size: 20px;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-weight: 1000;
+}
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
